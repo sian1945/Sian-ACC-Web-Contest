@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+li,a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size:16px ;
+    color:#edf0f1 ;
+    text-decoration: none;
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#000000 ;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:left ;
+    padding: 32px 10% ;
+    box-sizing: border-box;
+    background-color:#020202 ;
+
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 40px;
+    
+}
+.nav_links li a{
+   transition: all 0.3s ease 0s; 
+
+}
+.nav_links li a:hover{
+    color: #0088a9;
+    background-color: #edf0f1;
+   
+    padding: 25%;
+    border-radius: 50px;
+    color: black;
+    box-shadow:lightgray;
+    text-shadow:2px 2px lightgray ;
+    
+    
+
+}
+ .loadpage{
+  font-family: 'Poppins',sans-serif;
+  background-color: black;
+  height: 100vh;
+  margin: 0;
+  background-image: url("loadpage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  
+}
+.loadtext{
+    font-size: 72px;
+    padding-top: 46vh;
+    padding-left: 40vh;
+    
+    color: #e9e6e6;
+
+
+    
+}
+ 
+
+body{
+    background-color: black;
+}
+section{
+    color:white;
+    font-family: consolas;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+
+}
+section .content{
+    max-width: 80%;
+
+}
+section .content h2
+{
+    position: relative;
+    margin: 0;
+    padding:0;
+    display: inline-block;
+    font-size: 3em;
+    transition:0.5s ;
+    transform-origin: left;
+    transform:scaleX(1);
+
+
+}
+
+  
